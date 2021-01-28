@@ -45,7 +45,7 @@ public class ItemTask {
         System.out.println("手机数据抓取完成!");
     }
 
-    // 解析页面, 获取商品数据并存储
+
     private void parse(String html) throws Exception {
         // 解析html获取Document对象
         Document doc = Jsoup.parse(html);
